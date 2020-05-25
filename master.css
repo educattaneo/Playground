@@ -1,0 +1,74 @@
+/* Add a black background color to the top navigation */
+
+
+.topnav {
+    background-color:#f87d30;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Hover */
+.topnav a:hover {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+/* Color link */
+.topnav a.active {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Imágenes*/
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+    
+}
+.imagen1{
+    width: 50%;
+    margin-top: 50px;
+   
+   
+       
+}
+
+
+/*Search Bar*/
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+
+
+}
+
+.search{
+  
+
+
+}
